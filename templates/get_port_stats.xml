@@ -1,0 +1,9 @@
+      <state xmlns=NAMESPACE >
+        <port>
+            <port-id>PORT_ID</port-id>
+            <ethernet>
+              <statistics>
+              </statistics>
+            </ethernet>
+        </port>
+      </state>

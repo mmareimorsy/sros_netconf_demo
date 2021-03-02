@@ -1,0 +1,14 @@
+<config>
+    <configure xmlns={{NAMESPACE}}>
+        <router>
+            <router-name>Base</router-name>
+            <mpls>
+                <path>
+                    <path-name>{{PATHNAME}}</path-name>
+                    <admin-state>enable</admin-state>
+                    {{HOP}}
+                </path>
+            </mpls>
+        </router>
+    </configure>
+ </config>

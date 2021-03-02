@@ -1,0 +1,26 @@
+    <config>
+        <configure xmlns=NAMESPACE>
+            <router>
+                <router-name>Base</router-name>
+                <bgp>
+                    <group>
+                        <group-name>GROUP-NAME</group-name>
+                        <peer-as>PEER-AS</peer-as>
+                        <local-as>
+                            <as-number>LOCAL-AS</as-number>
+                        </local-as>
+                        <import>
+                            <policy>IMPORT-POLICY</policy>
+                        </import>
+                        <export>
+                            <policy>EXPORT-POLICY</policy>
+                        </export>
+                    </group>
+                    <neighbor>
+                        <ip-address>NEIGHBOR-ADDRESS</ip-address>
+                        <group>GROUP-NAME</group>
+                    </neighbor>
+                </bgp>
+            </router>
+        </configure>
+    </config>

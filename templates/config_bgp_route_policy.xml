@@ -1,0 +1,18 @@
+    <config>
+        <configure xmlns=NAMESPACE>
+            <policy-options>
+                <policy-statement>
+                    <name>POLICY_NAME</name>
+                    <entry>
+                        <entry-id>ENTRY-ID</entry-id>
+                        <action>
+                            <action-type>ACTION-TYPE</action-type>
+                            <community>
+                                <add>COMMUNITY</add>
+                            </community>
+                        </action>
+                    </entry>
+                </policy-statement>
+            </policy-options>
+        </configure>
+    </config>

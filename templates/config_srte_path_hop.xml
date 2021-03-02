@@ -1,0 +1,5 @@
+                    <hop>
+                        <hop-index>{{INDEX}}</hop-index>
+                        <ip-address>{{HOP}}</ip-address>
+                        <type>{{TYPE}}</type>
+                    </hop>

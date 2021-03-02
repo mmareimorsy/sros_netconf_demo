@@ -1,0 +1,13 @@
+    <config>
+        <configure xmlns="urn:alcatel-lucent.com:sros:ns:yang:conf-r13">
+            <port>
+                <port-id>PORT</port-id>
+                <connector>
+                    <breakout>
+                        <breakout>c1-100g</breakout>
+                    </breakout>
+                </connector>
+				<shutdown>false</shutdown>
+            </port>
+        </configure>
+    </config>

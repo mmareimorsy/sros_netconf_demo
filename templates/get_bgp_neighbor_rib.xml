@@ -1,0 +1,27 @@
+      <state xmlns=NAMESPACE>
+        <router>
+          <router-name>Base</router-name>
+            <bgp>
+              <rib>
+                <ipv4-unicast>
+                  <local-rib>
+                    <routes>
+                      <neighbor>NEIGHBOR-IP</neighbor>
+                      <used-route>true</used-route>
+                      <owner/>
+                    </routes>
+                  </local-rib>
+                </ipv4-unicast>  
+                <ipv6-unicast>
+                  <local-rib>
+                    <routes>
+                      <neighbor>NEIGHBOR-IP</neighbor>
+                      <used-route>true</used-route>
+                      <owner/>
+                    </routes>
+                  </local-rib>
+                </ipv6-unicast>  
+              </rib>
+            </bgp>
+        </router>
+      </state>

@@ -1,0 +1,12 @@
+    <config>
+        <configure xmlns=NAMESPACE>
+            <policy-options>
+                <community>
+                    <name>COMMUNITY_NAME</name>
+                    <member>
+                        <member>COMMUNITY</member>
+                    </member>
+                </community>
+            </policy-options>
+        </configure>
+    </config>

@@ -1,0 +1,16 @@
+    <config>
+        <configure xmlns=NAMESPACE>
+            <router>
+                <router-name>Base</router-name>
+                <interface>
+                    <interface-name>INTERFACE_NAME</interface-name>
+                    <ipv6>
+                        <address>
+                            <ipv6-address>V6ADDRESS</ipv6-address>
+                            <prefix-length>PREFIXLENGTH</prefix-length>
+                        </address>
+                    </ipv6>
+                </interface>
+            </router>
+        </configure>
+    </config>

@@ -1,0 +1,19 @@
+      <state xmlns=NAMESPACE>
+        <service>
+          <vprn>
+            <service-name>SERVICENAME</service-name>
+            <route-table>
+              <unicast>
+                <ipv4>
+                  <route>
+                  </route>
+                </ipv4>
+                <ipv6>
+                  <route>
+                  </route>
+                </ipv6>
+              </unicast>  
+            </route-table>
+          </vprn>
+        </service>
+      </state>

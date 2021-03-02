@@ -1,0 +1,10 @@
+    <config>
+        <configure xmlns=NAMESPACE>
+            <router>
+                <router-name>Base</router-name>
+                <interface>
+                    <interface-name>INTERFACE_NAME</interface-name>
+                </interface>
+            </router>
+        </configure>
+    </config>
