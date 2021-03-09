@@ -101,8 +101,8 @@ This will list the currently available methods to expirement with
   --config_srte_path_hops CONFIG_SRTE_PATH_HOPS [CONFIG_SRTE_PATH_HOPS ...]
                         hop IP address
   --config_srte_path_hop_type CONFIG_SRTE_PATH_HOP_TYPE [CONFIG_SRTE_PATH_HOP_TYPE ...]
-                        loose or strict hop type```
-                
+                        loose or strict hop type
+```
                         
   Any command that starts with "get" will be basically targeting a state datastore so basically a get rpc, any command starting with config will be used for configuration on the candidate datastore then committed to running datastore (edit-config rpc)
   
