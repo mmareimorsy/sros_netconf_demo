@@ -28,7 +28,6 @@ This will list the currently available methods to expirement with
 
 ## List of available commands
 
-optional arguments:
   -h, --help            show this help message and exit
   --node_ip IPADDRESS   IP address of the DUT
   --username USERNAME   Username of the DUT
@@ -110,17 +109,19 @@ optional arguments:
   ## example
   
   python3 netconf.py --node_ip $(YOUR_NODE_IP) --username $(YOUR_NETCONF_USER) --password $(YOUR_NETCONF_PASS) --get_interface_stats 1/1/c1/1
-      <state xmlns="urn:nokia.com:sros:ns:yang:sr:state" >
-        <port>
-            <port-id>1/1/c1/1</port-id>
-            <ethernet>
-              <statistics>
-              </statistics>
-            </ethernet>
-        </port>
-      </state>
+
+
+<state xmlns="urn:nokia.com:sros:ns:yang:sr:state" >
+<port>
+    <port-id>1/1/c1/1</port-id>
+    <ethernet>
+        <statistics>
+        </statistics>
+    </ethernet>
+</port>
+</state>
 <?xml version="1.0" encoding="UTF-8"?>
-<rpc-reply message-id="urn:uuid:dc3f09b0-5484-4cbc-bf81-646b1d395023" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+<rpc-reply message-id="urn:uuid:d72809e9-0d33-453e-838e-c3bb8f95cc0b" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
     <data>
         <state xmlns="urn:nokia.com:sros:ns:yang:sr:state">
             <port>
@@ -186,5 +187,3 @@ optional arguments:
         </state>
     </data>
 </rpc-reply>
-  
-  
