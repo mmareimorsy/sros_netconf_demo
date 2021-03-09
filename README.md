@@ -28,7 +28,7 @@ This will list the currently available methods to expirement with
 
 ## List of available commands
 
-  -h, --help            show this help message and exit
+```-h, --help            show this help message and exit
   --node_ip IPADDRESS   IP address of the DUT
   --username USERNAME   Username of the DUT
   --password PASSWORD   Password of the DUT
@@ -101,8 +101,8 @@ This will list the currently available methods to expirement with
   --config_srte_path_hops CONFIG_SRTE_PATH_HOPS [CONFIG_SRTE_PATH_HOPS ...]
                         hop IP address
   --config_srte_path_hop_type CONFIG_SRTE_PATH_HOP_TYPE [CONFIG_SRTE_PATH_HOP_TYPE ...]
-                        loose or strict hop type
-                        
+                        loose or strict hop type```
+                
                         
   Any command that starts with "get" will be basically targeting a state datastore so basically a get rpc, any command starting with config will be used for configuration on the candidate datastore then committed to running datastore (edit-config rpc)
   
@@ -111,6 +111,7 @@ This will list the currently available methods to expirement with
   python3 netconf.py --node_ip $(YOUR_NODE_IP) --username $(YOUR_NETCONF_USER) --password $(YOUR_NETCONF_PASS) --get_interface_stats 1/1/c1/1
 
 
+```
 <state xmlns="urn:nokia.com:sros:ns:yang:sr:state" >
 <port>
     <port-id>1/1/c1/1</port-id>
@@ -186,4 +187,4 @@ This will list the currently available methods to expirement with
             </port>
         </state>
     </data>
-</rpc-reply>
+</rpc-reply>```
