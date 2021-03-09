@@ -11,7 +11,7 @@ import json
 
 def checkConnectionMinimum(args):
     if (args.ipaddress is None or args.username is None or args.password is None):
-        print ("Minimum for usage is --node-ip & --username & --password")
+        print ("Minimum for usage is --node_ip & --username & --password")
         exit(-1)
     
 def main():
